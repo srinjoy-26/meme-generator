@@ -13,19 +13,28 @@
         }
         body{
             background-color: #132043;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
         }
         .container{
             border: #132043;
             border-radius: 12px;
             background-color: #BEADFA;
-            margin: 350px;
-            padding: 150px;
+            
+            padding: 50px;
             text-align: center;
             font-family: monospace;
             font-size: 25px;
             font-weight: bold;
-            padding-top: 100px;
-            margin-top: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            
         }
         .innerdiv{
             background-color: #BEADFA;
@@ -40,18 +49,18 @@
             border: #BEADFA;
             background-color: #451952;
             color: aliceblue;
-            margin-right: 15px;
+            
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h3>Meme Generator 👻</h3>
-        <br>
+        
         <div class="innerdiv" id="jk">
         Amazing Jokes Loading........
     </div>
-        <br>
+        
         <button id="JokeBtn">Next Joke</button>
     </div>
 
